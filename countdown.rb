@@ -2,7 +2,7 @@
 number = 10
 def countdown(number)
  while number > 0
- $stdout.print "#{number} SECOND(S)\n!"
+ $stdout.print "#{number} SECOND(S)!/n"
  number -= 1
  
  end
