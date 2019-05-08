@@ -2,7 +2,7 @@
 number = 10
 def countdown(number)
  while number > 0
- $stdout.print "#{number} SECOND(S)!/n"
+ puts "#{number} SECOND(S)!/n"
  number -= 1
  
  end
@@ -13,6 +13,7 @@ def countdown_with_sleep(number)
   while number > 0
   number -= 1
   sleep (1)
+  $stdout.print "#{number} SECOND(S)!/n"
 end
  "HAPPY NEW YEAR!"
 end
