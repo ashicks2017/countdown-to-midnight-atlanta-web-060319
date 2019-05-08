@@ -2,7 +2,7 @@
 number = 10
 def countdown(number)
  while number >= 1
- puts "#{number} SECONDS!"
+ print "#{number} SECONDS!"
  number -= 1
  
  end
